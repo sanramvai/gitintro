@@ -1,0 +1,24 @@
+﻿@model string[]
+@{ 
+    ViewData["title"] = "places";
+}
+<form asp-action="places" method="post">
+    @if (Model.Length == 0)
+    {
+   @for (int i = 1; i <=3; i++)
+   {
+       <div class="form-group">
+           <label>Place @i</label>
+           <input name="places" class="form-control"/>
+       </div>
+
+   }
+        <button class="btn btn-dark" type="submit">Submit</button>
+    }
+    @foreach(string s in Model)
+    {
+        <table class="table table-bordered table-sm table-striped">
+            <tr><td>@s</td></tr>
+        </table>
+    }
+</form>

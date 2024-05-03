@@ -1,0 +1,31 @@
+﻿@model Employee
+@{ 
+    var photopath = "~/images/" + (@Model.PhotoPath?? "download.jfif");
+}
+
+<body>
+    <div class="row justify-content-center m-3">
+     <div class="col-sm-5">
+    <div class="card">
+        
+        <div class="card-header">
+            <h4>@Model.Name</h4>
+        </div>
+        <div class="card-body text-center">
+            <img class="card-img-top" src="@photopath" asp-append-version="true" />
+            <h4>Employee ID:@Model.Id </h4>
+            <h4>Employee Email:@Model.Email</h4>
+            <h4>Employee Department:@Model.Department</h4>
+            
+
+        </div>
+        <div class="Card-Footer text-center">
+            <a asp-controller="home" asp-action="edit" asp-route-id="@Model.Id"
+               class="btn btn-primary m-1">Edit</a>
+        <a href="#" class="btn btn-primary">Back</a>
+        <a href="#" class="btn btn-danger">Delete</a>
+       </div>
+    </div>
+         </div>
+        </div>
+</body>

@@ -1,0 +1,50 @@
+﻿@model Employee
+@{
+    var photoPath = "~/images/" + (@Model.PhotoPath ?? "download.jfif");
+}
+<!--<div class="m-4">
+
+    <div class="card border-primary">
+        <div class="bg-faded p-1 col-2">
+            <h4>@Model.Name</h4>
+
+            <div class="card-text">@Model.Department</div>
+            <div class="card-text">@Model.Email</div>-->
+@*<span class="badge badge-pill badge-primary" style="float:right">*@
+@*<span style="float:right">*@
+<!--</div>
+        <div class="col-2">
+            <small><img src="@photoPath" asp-append-version="true" /></small>
+         </div>
+
+        </div>
+
+    </div>
+</div>-->
+<div class="container">
+
+    <div class="card">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>@Model.Name</h2>
+
+                <div class="card-text">@Model.Department</div>
+                <div class="card-text">@Model.Email</div>
+
+            </div>
+            <div class="col-md-6 text-right">
+
+                <small><img src="@photoPath" style="width:120px" class="img-thumbnail " asp-append-version="true" /></small>
+
+            </div>
+
+
+        </div>
+        <div class="Card-Footer text-left">
+            <a asp-controller="home" asp-action="edit" asp-route-id="@Model.Id"
+               class="btn btn-primary m-1">Edit</a>
+            <a href="#" class="btn btn-primary">Back</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+ </div>

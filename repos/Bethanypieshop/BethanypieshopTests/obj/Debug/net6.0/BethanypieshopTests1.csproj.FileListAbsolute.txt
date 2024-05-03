@@ -1,0 +1,6 @@
+C:\Users\sandh\source\repos\Bethanypieshop\BethanypieshopTests\bin\Debug\net6.0\CoverletSourceRootsMapping_BethanypieshopTests1
+C:\Users\sandh\source\repos\Bethanypieshop\BethanypieshopTests\obj\Debug\net6.0\BethanypieshopTests1.csproj.AssemblyReference.cache
+C:\Users\sandh\source\repos\Bethanypieshop\BethanypieshopTests\obj\Debug\net6.0\BethanypieshopTests1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandh\source\repos\Bethanypieshop\BethanypieshopTests\obj\Debug\net6.0\BethanypieshopTests1.AssemblyInfoInputs.cache
+C:\Users\sandh\source\repos\Bethanypieshop\BethanypieshopTests\obj\Debug\net6.0\BethanypieshopTests1.AssemblyInfo.cs
+C:\Users\sandh\source\repos\Bethanypieshop\BethanypieshopTests\obj\Debug\net6.0\BethanypieshopTests1.csproj.CoreCompileInputs.cache

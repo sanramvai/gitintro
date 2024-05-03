@@ -1,0 +1,67 @@
+﻿@model DropdownListViewModel
+
+@{
+    ViewBag.Title = "Create Employee";
+}
+@*Null Reference Exception with IFormFile
+If the controller is accepting uploaded files using IFormFile but the value is null, confirm that the HTML form is specifying an enctype value of multipart/form-data. If this attribute isn't set on the <form>
+    element, the file upload doesn't occur and any bound IFormFile arguments are null. Also confirm that the upload naming in form data matches the app's naming.*@
+    <form enctype="multipart/form-data" asp-controller="home" asp-action="CreateEmp" method="post">
+        <div class="form-group">
+
+            <div class="form-group row">
+                <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Email" class="form-control">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label asp-for="Department" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <select asp-for="Department"
+                            asp-items=@Model.Departmentcollection class="form-control"></select>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <div class="custom-file">
+                        <input asp-for="Photo" class="form-control custom-file-input">
+                        <label class="custom-file-label">Choose File...</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-dark">Create</button>
+            </div>
+
+
+
+            <div asp-validation-summary="All" class="text=danger" />
+
+        </div>
+        @section Scripts {
+            <script>
+                $(document).ready(function () {
+                    $('.custom-file-input').on("change", function () {
+                        var fileName = $(this).val().split("\\").pop();
+                        $(this).next('.custom-file-label').html(fileName);
+                    });
+                });
+            </script>
+        }
+    </form>

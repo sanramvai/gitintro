@@ -1,0 +1,16 @@
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\UseHttpClent.exe
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\UseHttpClent.deps.json
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\UseHttpClent.runtimeconfig.json
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\UseHttpClent.runtimeconfig.dev.json
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\UseHttpClent.dll
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\ref\UseHttpClent.dll
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\bin\Debug\net5.0\UseHttpClent.pdb
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.csproj.AssemblyReference.cache
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.AssemblyInfoInputs.cache
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.AssemblyInfo.cs
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.csproj.CoreCompileInputs.cache
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.dll
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\ref\UseHttpClent.dll
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.pdb
+C:\Users\sandh\source\repos\UseHttpClent\UseHttpClent\obj\Debug\net5.0\UseHttpClent.genruntimeconfig.cache

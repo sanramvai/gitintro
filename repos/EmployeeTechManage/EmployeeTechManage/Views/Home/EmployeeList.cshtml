@@ -1,0 +1,8 @@
+﻿@model EmployeeListViewModel
+
+@foreach (var emp in Model.Employees)
+{
+    <partial name="EmployeeView" model="emp" />
+}
+<div Page-Model="@Model.PagingInfo" page-action="EmployeeList" Page-Class-Normal="btn-ouline-dark" Page-Class-Selected="btn-primary" page-class="btn" page-classes-enabled="true" page-url-dept="@Model.SelectedDepartment" class="btn-group pull-right m-1"></div>
+

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UseHttpClent/1.0.0": {
+        "runtime": {
+          "UseHttpClent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UseHttpClent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

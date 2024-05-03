@@ -1,0 +1,8 @@
+﻿@model FileUpload
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+    <label asp-for="FileToUpload"></label>
+    <input asp-for="FileToUpload" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-info">Submit</button>
+</form>

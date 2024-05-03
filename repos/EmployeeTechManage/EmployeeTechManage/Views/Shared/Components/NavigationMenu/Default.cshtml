@@ -1,0 +1,9 @@
+﻿
+@model DepartmentSelectViewModel
+<div class="d-grid gap-2">
+@foreach (string dept in Model.DepartmentList)
+{
+    <a class="btn btn-block btn-lg @(dept==Model.selectedDepartment ? "btn-secondary" : "btn-primary")" asp-action="EmployeeList" asp-controller="Home" asp-route-dept="@dept" asp-route-empPage="1" style="max-width:90%">@dept</a>
+}
+
+</div>

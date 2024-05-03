@@ -1,0 +1,29 @@
+﻿body {
+    /* background-color: aliceblue;*/
+    background: #fafafa;
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:40px;
+    padding-right:40px;
+}
+nav {
+    background-color: rgb(62, 127, 127);
+    color:aqua;
+}
+li{
+    color: antiquewhite;
+}
+h1 {
+    font-size: 30px
+}
+
+h2 {
+    font-size: 24px
+}
+
+h3 {
+    font-size: 20px
+}
+.btn {
+    font-size:20px;
+}
